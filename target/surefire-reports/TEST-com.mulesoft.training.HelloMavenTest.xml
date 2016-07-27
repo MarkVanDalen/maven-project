@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mulesoft.training.HelloMavenTest" time="3.076" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="skipMunitTests" value="true"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin"/>
+    <property name="java.vm.version" value="25.91-b15"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\mvda\AnypointStudio\workspace\maven-project"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\mvda\AnypointStudio\workspace\maven-project"/>
+    <property name="java.runtime.version" value="1.8.0_91-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\mvda\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Mule\Maven\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_101/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_101/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_101/bin/../jre/lib/amd64;C:\Mule\Maven\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_101\bin; C:\Mule\Maven\apache-maven-3.3.9\bin; C:\Program Files\Java\jdk1.8.0_101;C:\Users\mvda\Downloads\Mulesoft;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\mvda"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="mvda"/>
+    <property name="java.class.path" value="C:\Mule\Maven\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_91\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean package -DskipMunitTests"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Mule\Maven\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="mavenFlowReturnsHelloMaven" classname="com.mulesoft.training.HelloMavenTest" time="2.105">
+    <error message="Line 45 in XML document from URL [file:/C:/Users/mvda/AnypointStudio/workspace/maven-project/target/test-classes/maven-project.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 45; columnNumber: 12; cvc-complex-type.2.4.b: The content of element &apos;flow&apos; is not complete. One of &apos;{&quot;http://www.mulesoft.org/schema/mule/core&quot;:abstract-message-processor, &quot;http://www.mulesoft.org/schema/mule/core&quot;:abstract-outbound-endpoint, &quot;http://www.mulesoft.org/schema/mule/core&quot;:abstract-mixed-content-message-processor, &quot;http://www.mulesoft.org/schema/mule/core&quot;:response}&apos; is expected. (org.mule.api.lifecycle.InitialisationException)" type="org.mule.api.config.ConfigurationException">org.mule.api.config.ConfigurationException: Line 45 in XML document from URL [file:/C:/Users/mvda/AnypointStudio/workspace/maven-project/target/test-classes/maven-project.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 45; columnNumber: 12; cvc-complex-type.2.4.b: The content of element 'flow' is not complete. One of '{"http://www.mulesoft.org/schema/mule/core":abstract-message-processor, "http://www.mulesoft.org/schema/mule/core":abstract-outbound-endpoint, "http://www.mulesoft.org/schema/mule/core":abstract-mixed-content-message-processor, "http://www.mulesoft.org/schema/mule/core":response}' is expected. (org.mule.api.lifecycle.InitialisationException)
+Caused by: org.mule.api.lifecycle.InitialisationException: Line 45 in XML document from URL [file:/C:/Users/mvda/AnypointStudio/workspace/maven-project/target/test-classes/maven-project.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 45; columnNumber: 12; cvc-complex-type.2.4.b: The content of element 'flow' is not complete. One of '{"http://www.mulesoft.org/schema/mule/core":abstract-message-processor, "http://www.mulesoft.org/schema/mule/core":abstract-outbound-endpoint, "http://www.mulesoft.org/schema/mule/core":abstract-mixed-content-message-processor, "http://www.mulesoft.org/schema/mule/core":response}' is expected.
+Caused by: org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 45 in XML document from URL [file:/C:/Users/mvda/AnypointStudio/workspace/maven-project/target/test-classes/maven-project.xml] is invalid; nested exception is org.xml.sax.SAXParseException; lineNumber: 45; columnNumber: 12; cvc-complex-type.2.4.b: The content of element 'flow' is not complete. One of '{"http://www.mulesoft.org/schema/mule/core":abstract-message-processor, "http://www.mulesoft.org/schema/mule/core":abstract-outbound-endpoint, "http://www.mulesoft.org/schema/mule/core":abstract-mixed-content-message-processor, "http://www.mulesoft.org/schema/mule/core":response}' is expected.
+Caused by: org.xml.sax.SAXParseException: cvc-complex-type.2.4.b: The content of element 'flow' is not complete. One of '{"http://www.mulesoft.org/schema/mule/core":abstract-message-processor, "http://www.mulesoft.org/schema/mule/core":abstract-outbound-endpoint, "http://www.mulesoft.org/schema/mule/core":abstract-mixed-content-message-processor, "http://www.mulesoft.org/schema/mule/core":response}' is expected.
+</error>
+    <system-out><![CDATA[
+================================================================================
+= Testing: mavenFlowReturnsHelloMaven                                          =
+================================================================================
+INFO  2016-07-27 09:45:18,173 [Thread-1] com.mulesoft.training.HelloMavenTest: Using working directory for test: C:\Users\mvda\AppData\Local\Temp\junit7647114814633161061
+INFO  2016-07-27 09:45:18,366 [Thread-1] org.mule.lifecycle.AbstractLifecycleManager: Initialising RegistryBroker
+INFO  2016-07-27 09:45:18,620 [Thread-1] org.mule.config.spring.MuleArtifactContext: Refreshing org.mule.config.spring.MuleArtifactContext@6c9446e6: startup date [Wed Jul 27 09:45:18 CEST 2016]; root of context hierarchy
+INFO  2016-07-27 09:45:19,831 [Thread-1] org.mule.lifecycle.AbstractLifecycleManager: Disposing RegistryBroker
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/mvda/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.5/log4j-slf4j-impl-2.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/mvda/.m2/repository/org/apache/activemq/activemq-all/5.13.4/activemq-all-5.13.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+]]></system-err>
+  </testcase>
+</testsuite>
